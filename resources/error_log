@@ -1,0 +1,2 @@
+[03-Sep-2023 23:18:12 UTC] PHP Warning:  imagecreatefrompng(): gd-png: libpng warning: iCCP: known incorrect sRGB profile in /home/iestperasmo/public_html/DocuRocket/includes/tcpdf/tcpdf.php on line 7375
+[03-Sep-2023 23:33:23 UTC] PHP Warning:  imagecreatefrompng(): gd-png: libpng warning: iCCP: known incorrect sRGB profile in /home/iestperasmo/public_html/DocuRocket/includes/tcpdf/tcpdf.php on line 7375
