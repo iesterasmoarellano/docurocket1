@@ -1,0 +1,47 @@
+.flotante {
+    position:fixed;
+    z-index: 1;
+    top: 112px;
+    right: 60px;
+}
+
+.buttons-excel{
+    background-color: green !important;
+}
+
+.buttons-pdf{
+    background-color: red !important;
+}
+
+.valida-dato{
+    display: none;
+}
+
+.dv_persona_juridica {
+	display: none;
+}
+
+#tblTipoUsuario td:nth-child(3), th:nth-child(3) {
+	text-align: center;
+}
+
+#tblArea td:nth-child(3), th:nth-child(3) {
+    text-align: center;
+}
+
+#tblSolicitudes td:nth-child(5) {
+    text-align: center;
+}
+
+#tblTramitesAsignados td:nth-child(6) {
+    text-align: center;
+}
+
+.acciones-btn {
+	margin-right: 5px;
+}
+
+.scroll{
+    height: 650px;
+    overflow-x: scroll; 
+}

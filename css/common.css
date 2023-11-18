@@ -1,0 +1,150 @@
+.content_title_top {
+    font-size: 1.4rem !important ;
+}
+
+.title_top_light {
+    font-weight: 100;
+}
+
+.title_top_strong {
+    font-weight: 300;
+}
+
+.position_img_claro_dis_grande {
+    display:inline-block;
+    background: transparent url(../img/claro.png) no-repeat scroll 0% 0%; 
+    width: 20px ! important; 
+    height: 20px ! important;
+    vertical-align: top; 
+    margin-top: 16px; 
+    margin-left: 15px;
+}
+
+.position_img_claro_dis_med_and_peque {
+    display: inline-block;
+    background: transparent url(../img/claro.png) no-repeat scroll 0% 0%; 
+    width: 19px;
+    height: 20px !important;
+    vertical-align: top;
+    margin-left: -3px;
+    margin-right: 5px;
+    margin-top: 14px;
+}
+
+.position_img_movistar_dis_grande {
+    display:inline-block;
+    background: transparent url("../img/movistar.png") no-repeat scroll 0% 0%; 
+    width: 20px ! important; 
+    height: 20px ! important;
+    vertical-align: top; 
+    margin-top: 16px; 
+    margin-left: 15px;
+}
+
+.position_img_movistar_dis_med_and_peque {
+    display: inline-block;
+    background: transparent url("../img/movistar.png") no-repeat scroll 0% 0%; 
+    width: 19px;
+    height: 20px !important;
+    vertical-align: top;
+    margin-left: -3px;
+    margin-right: 5px;
+    margin-top: 16px;
+}
+
+.link_effect {
+    color : #E65100 ;
+    transition:  color 0.28s ease 0s;
+    padding: 13px;
+}
+
+.link_effect:hover {
+    color : #FF8C4D;
+    cursor: pointer;
+
+}
+/*
+ * DIVISION
+ */
+
+.division {
+    border-bottom: 1px solid #ef6c00;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+/*
+ * CARD NOTICIAS
+ */
+
+.card_noticia_fecha {
+    padding: 8px
+}
+
+.card_noticia_content_img {
+    text-align: center;
+}
+
+@media only screen and (min-width:601px){
+    .card_noticia_img{
+        width: 80% !important;
+        height: 100% !important;
+        margin:0px auto;
+    }
+}
+@media only screen and (max-width:600px){
+    .card_noticia_img{
+        width: 100% !important;
+        height: 100% !important; 
+    }
+    
+}
+
+
+/*
+ * PIE DE PAGINA
+ *
+ */
+
+.contenedor_pie_unidad{
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+.pie_titulo{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+    
+}
+.pie_enlace{
+   margin-top:15px;
+   text-align: center;
+   transition: font-weight 0.4s ease;
+}
+.pie_enlace:hover{
+   margin-top:15px;
+   text-align: center;
+   font-weight: bold;
+}
+.pie_img_marketing_contenedor{
+    text-align: center;
+    padding-top: 15px;
+}
+.pie_img_marketing_unidad{
+    margin-bottom: 15px;
+    transition: color 0.4s ease;
+}
+.pie_img_marketing_unidad:hover{
+    color : #E65100;
+    cursor: pointer;
+}
+.donaciones-text{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top:20px
+}
+
+.deshabilitado {
+    cursor : not-allowed !important;
+font-weight:900 !important}

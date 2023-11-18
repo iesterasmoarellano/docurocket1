@@ -1,0 +1,70 @@
+.titulo_web{
+    text-align: center;
+    padding-bottom: 7px !important;
+    padding-top: 23px !important;
+    font: 18px roboto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+   // font-size: 1.4rem
+}
+.side-nav li a:hover, .side-nav li .active, side-nav li a.active {
+    color: #009688 !important;
+    transition: color 0.3s ease 0s;
+}
+.side-nav a {
+    font-size: 0.8rem;
+    height: 35px;
+    line-height: 43px;
+}
+.icono_desplegable_menu{
+    margin-right:  10px;
+    margin-top:12px;
+}
+nav {
+    background-color: white;
+   
+}
+nav ul a {
+  //  font-size: 1rem;
+    color: #000;
+    display: block;
+    padding: 0px 15px;
+    opacity: 0.55;
+}
+nav ul b {
+  //  font-size: 1rem;
+    color: #000;
+    display: block;
+    padding: 0px 15px;
+    opacity: 0.55;
+    font-weight: 300 !important;
+}
+nav ul li a:hover, nav ul li a.active {
+    transition: all 0.3s ease 0s;
+    background: #FFF none repeat scroll 0% 0%;
+    color: #009688 !important;
+}
+.infoUsuario{
+    display:none;
+    margin-top: 1px;
+    position:fixed !important;
+}
+.navInfoUsuario{
+    width: 450px;right: 0px
+}
+@media only screen and (min-width:992px){
+    
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #009688;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+}
+.btn:hover, .btn-large:hover {
+    background-color: white;
+    opacity: 0.55;
+}
